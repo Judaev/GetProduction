@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "graphpack",
+    "build": "graphpack build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Judaev/GetProduction/issues"
   },
-  "homepage": "https://github.com/Judaev/GetProduction#readme"
+  "homepage": "https://github.com/Judaev/GetProduction#readme",
+  "devDependencies": {
+    "graphpack": "^1.0.9"
+  }
 }
